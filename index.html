@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<!-- Animación para letras en la imagen de presentacion -->
+	<link rel="stylesheet" href="css/animate.css">
+
+	<!--Bootstrap-->
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+	<!--Css-->
+	 <link rel="stylesheet" href="css/stylesIndex.css">
+	 <link rel="stylesheet" href="css/redes.css">
+
+	 <!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	
+
+ 	<!--Scripts -->
+ 	<script src="js/alto.js"></script> 	
+ 	<script src="js/jquery.scrollflow.min.js"></script>
+ 
+
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/css/mdb.min.css" rel="stylesheet">
+ 	
+	
+	<!-- Link para usar imagenes e iconos como en la bara de redes sociales -->
+ 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous"> 
+
+
+</head>
+
+<body>
+	<header>
+		<nav  class="navbar navbar-expand-lg navbar-dark bg-dark scrolling-navbar fixed-top" id="menu">
+			<div class="nav mx-auto">
+				<a class="navbar-brand" href="#">
+			  		<img src="img/logo.jpg" width="40" height="40" class="d-inline-block align-top" alt="">
+			  	</a>
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  	</button>
+
+			  	<div class="collapse navbar-collapse " id="navbarSupportedContent">
+			 	    <ul class="navbar-nav mx-auto ">
+					    <li class="nav-item">
+					    	<a class="nav-link" href="#productos">Productos Destacados  </a>
+				    	</li>
+				    </ul>
+				    <ul class="navbar-nav mx-auto ">
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="#trabajo">Nuestros Servicios  </a>
+				      	</li>
+				    </ul>
+				    <ul class="navbar-nav mx-auto ">
+				       	<li class="nav-item">
+					        <a class="nav-link" href="#contacto">Contacto</a>
+					    </li>
+				    </ul>
+			    </div>
+			</div>
+		</nav>
+
+	</header>
+	
+	<!--Boton para ir al top de la pagina-->
+	<span class="ir-arriba"></span>
+
+	<!-- Barra lateral de redes sociales -->
+	<div class="red">
+		<!-- en "target" la opcion "_blank" abre el link en otra pestaña -->
+		<div id="facebook"><a href="https://www.facebook.com/RN-banqueteria-1978466722414941/?ref=page_internal" target="_blank" class="fab fa-facebook-square"></a></div>
+		<div id="youtube"><a href="https://www.youtube.com" target="_blank" class="fab fa-youtube"></a></div>
+		<div id="twitter"><a href="https://www.twitter.com" target="_blank" class="fab fa-twitter"></a></div>
+		<div id="correo"><a href="https://www.gmail.com" target="_blank" class="far fa-envelope"></a></div>
+		
+	</div>
+
+
+	<!-- Imagen de presentacion -->
+	<div class="ancho-letras">
+		<div class="letras-slider"></div>
+			<h1 class="animated zoomIn">R&N Cocktail Delivery & Eventos</h1>
+			<p class="animated slideInUp">Esta empresa partió en Marzo de 2018, como un dulce sueño.</p>
+			<p class="animated slideInUp">...Solo teniendo muchas esperanzas de crear un negocio, con productos simples y de muy buena calidad...</p>
+	</div>
+
+	<div id="particles-js"></div>
+
+	<section class="container" id="somos">
+		<div class="scrollflow -pop">
+			<h1 class="display-5 tit-center">Quienes somos</h1>
+			<p class="p-center">...un poco de nuestra historia...</p>
+		</div>
+		<div class="row">
+			<div class="col col-lg-12">
+				<p id="p-quienes-somos">
+					En el mismo lugar donde hoy está la casa matriz de Productos San Camilo, en 1884 inició su presencia en el entonces llamado Barrio Yungay, en un pequeño local, el cual fue consolidando paulatinamente su radio de acción, tanto en su entorno como en otros barrios residenciales y negocios del centro de Santiago.
+
+					En el año 1921, se incorporó Antonio Ferrán Sabaté, quién imprimió un nuevo impulso al negocio. Llegó a incorporar importantes mejoras en el proceso productivo. Luego en la década del 30 se abrieron nuevos locales en el sector de Estación Central.
+
+					La expansión continuó en las siguientes décadas, y llegó a nuevas zonas como Apoquindo, Maipú y La Florida.
+
+					Las clásicas recetas de tiempos pasados se mantienen vigentes hasta hoy, para entregar el sabor que prefieren nuestros clientes al momento de elegir nuestros productos.
+				</p>
+			</div>
+				
+		</div>
+		
+	</section>
+
+
+	<!-- Sección de productos destacados -->
+	<section class="container" id="productos">
+		<div class="scrollflow -pop" id="logo-destacado">
+			<img src="img/icono-destacado.jpg" class="img-fluid max-width: 40%" height="auto" style="display: block; margin-left: auto; margin-right: auto; margin-top: 10px;" alt="Responsive image">
+			<h1 class="display-5 tit-center">Productos Destacados</h1>
+			<p class="p-center">Elaborados con nuestras tradicionales recetas o personalizadas según sus requerimientos.</p>
+		</div>
+		  <div class="row scrollflow -slide-right -opacity">
+		    <div class="col col-lg-3 div-img ">
+		    	<img src="img/buffet-postres.jpg" class="img-fluid max-width: 60%" height="auto"  alt="Responsive image">
+		    	<p class="tit-center" id="description">Buffet de postres
+		    	</p>
+		    </div>
+		    <div class="col col-lg-3 div-img">
+				<img src="img/cocktail-salado.jpg" class="img-fluid max-width: 60%" height="auto"  alt="Responsive image">
+				<p class="tit-center" id="description">Cocktail Salado
+		    	</p>
+		    </div>
+		     <div class="col col-lg-3 div-img ">
+		    	<img src="img/dulces-personalizados.jpg" class="img-fluid max-width: 60%" height="auto"  alt="Responsive image">
+		    	<p class="tit-center" id="description">Dulces personalizados
+		    	</p>
+		    </div>
+		    <div class="col col-lg-3 div-img">
+		    	<img src="img/pastelitos.jpg" class="img-fluid max-width: 60%" height="auto"  alt="Responsive image">
+		    	<p class="tit-center" id="description">Mini pastelitos
+		    	</p>
+		    </div>
+		  </div>
+		  <div class="row scrollflow -slide-left -opacity">
+		    <div class="col col-lg-3 div-img">
+		    	<img src="img/entrada.jpg" class="img-fluid max-width: 60%" height="auto"  alt="Responsive image">
+		    	<p class="tit-center" id="description">Entradas
+		    	</p>
+		    </div>
+		    <div class="col col-lg-3 div-img">
+		    	<img src="img/frutas.jpg" class="img-fluid max-width: 60%" height="auto"  alt="Responsive image">
+		    	<p class="tit-center" id="description">Ensaladas de Frutas
+		    	</p>
+		    </div>
+		    <div class="col col-lg-3 div-img">
+		    	<img src="img/Picoteos.jpg" class="img-fluid max-width: 60%" height="auto"  alt="Responsive image">
+		    	<p class="tit-center" id="description">Picoteos y minitablas
+		    	</p>
+		    </div>
+		    <div class="col col-lg-3 div-img">
+		    	<img src="img/tortas.jpg" class="img-fluid max-width: 60%" height="auto"  alt="Responsive image">
+		    	<p class="tit-center" id="description">Tortas temáticas
+		    	</p>
+		    </div>
+		  </div>
+		</div>
+
+		
+	</section>
+	<section class="banner-2">
+		<div>
+			<h3 class="scrollflow -pop">Queremos que tu celebración sea inolvidable</h3>
+		</div>
+		
+	</section>
+
+	<!--Seccion de trabajos que se realizan-->
+	<section class="container" id="trabajo">
+		<div class="scrollflow -pop" id="logo-destacado ">
+			<img src="img/tit-trabajamos.jpg" class="img-fluid max-width: 40%" height="auto" style="display: block; margin-left: auto; margin-right: auto; margin-top: 10px;" alt="Responsive image">
+			<h1 class="display-5 tit-center">Nuestros Servicios</h1>
+			<p class="p-center">Siempre dispuestos a entregarte un momento inolvidable</p>
+		</div>
+		<div class="container ">
+		  <div class="row container ">
+		    <div class="col col-lg-4 div-img scrollflow -slide-bottom -opacity">
+		      <img src="img/bautizos.jpg" class="img-fluid max-width: 60%" height="auto"  alt="Responsive image">
+		    	<p class="tit-center" id="description">Bautizos
+		    	</p>
+		    </div>
+		    <div class="col col-lg-4 div-img scrollflow -slide-bottom -opacity">
+		    	<img src="img/bodas.jpg" class="img-fluid max-width: 60%" height="auto"  alt="Responsive image">
+		    	<p class="tit-center" id="description">Casamientos
+		    	</p>
+		    </div>
+		    <div class="col col-lg-4 div-img scrollflow -slide-bottom -opacity">
+		    	<img src="img/cumpleanos.jpg" class="img-fluid max-width: 60%" height="auto"  alt="Responsive image">
+		    	<p class="tit-center" id="description">Cumpleaños
+		    	</p>
+		    </div>
+		  </div>
+		  <div class="row container ">
+		    <div class="col col-lg-4 div-img scrollflow -slide-top -opacity">
+		    	<img src="img/delivery.jpg" class="img-fluid max-width: 60%" height="auto"  alt="Responsive image">
+		    	<p class="tit-center" id="description">Delivery
+		    	</p>
+		    </div>
+		    <div class="col col-lg-4 div-img scrollflow -slide-top -opacity">
+		    	<img src="img/graduaciones.jpg" class="img-fluid max-width: 60%" height="auto"  alt="Responsive image">
+		    	<p class="tit-center" id="description">Graduaciones
+		    	</p>
+		    </div>
+		    <div class="col col-lg-4 div-img scrollflow -slide-top -opacity">
+		    	<img src="img/servicios-cocteleria.jpg" class="img-fluid max-width: 60%" height="auto"  alt="Responsive image">
+		    	<p class="tit-center" id="description">Eventos especiales
+		    	</p>
+		    </div>
+		  </div>
+		</div>
+				
+	</section>
+
+	<section class="banner-3">
+		<div>
+			<h3 class="scrollflow -pop">¿Tienes una idea? Nosotros la hacemos realidad</h3>
+		</div>
+	</section>
+
+	<!--Seccion de contacto-->
+	<section class="container" id="contacto">
+		<div id="logo-destacado">
+			<h1 class="display-5 tit-center">Contáctanos</h1>			
+		</div>
+
+		<div class="container">
+			
+			<div class="row">
+				<div class="col col-lg-6 div-contact scrollflow -pop">
+					<img src="img/img-contacto.jpg" class="img-fluid max-width: 30%" height="auto"  alt="Responsive image">
+			    	
+				</div>
+				<div class="col col-lg-6">
+					<div id="text-contact">
+						<p>ESCRÍBENOS Y TE RESPONDEREMOS A LA BREVEDAD</p>
+					</div>
+					<form method="post" action="enviar.php">
+					  <div class="form-group ">
+					    <label for="name">Nombre</label>
+					    <input type="text" class="form-control" id="nombre" name="name" aria-describedby="emailHelp" placeholder="Ingresa tu nombre" required>
+					    
+					  </div>
+					  <div class="form-group ">
+					    <label for="telefono">Teléfono</label>
+					    <input type="text" class="form-control" id="telefono" name="telefono" aria-describedby="emailHelp" placeholder="Teléfono de contacto">
+					    
+					  </div>
+					  <div class="form-group">
+						<label for="email">Email</label>
+					    <input type="email" name="email" class="form-control" id="email" placeholder="email" required>
+					  </div>
+					  <div class="form-group">
+					    <label for="texto">Mensaje</label>
+					    <textarea class="form-control" id="texto" rows="3" name="messagge" required></textarea>
+					  </div>
+					  
+					  <button type="submit" class="btn btn-primary">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<!--Pie de pagina-->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col col-lg-4">
+					<div id="dato-footer">
+						Información
+						<hr>
+					</div>
+					<div id="info-footer">
+						<p>Productos</p>
+						<p>Servicios</p>
+				</div>
+				</div>
+				<div class="col col-lg-4">
+					<div id="dato-footer">
+						Contacto
+						<hr>
+					</div>
+					<div id="info-footer">
+						<p>Nadia Leiva</p>
+						<p>+569 46727180</p>
+						<br>
+						<p>Romina León</p>
+						<p>+569 77402236</p>
+					</div>
+				</div>
+				<div class="col col-lg-4 div-img-contact">
+					<img src="img/logo.jpg" class="img-fluid max-width: 30%" height="auto"  alt="Responsive image">
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+	<footer class="footer-2">
+		<div>
+			Copyright R&N Banqueteria - Powered by Papas
+		</div>
+		
+	</footer>
+  
+	
+<!--
+
+	
+	<section class="container" id="carrousel">
+		<div id="carrusel-home" class="carousel slide" data-ride="carousel">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carrusel-home" data-slide-to="0" class="active"></li>
+	    <li data-target="#carrusel-home" data-slide-to="1"></li>
+	    <li data-target="#carrusel-home" data-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img class="d-block w-100" src="img/img2.jpg" alt="First slide">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="img/img1.jpg" alt="Second slide">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="img/img3.jpg" alt="Third slide">
+	    </div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carrusel-home" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carrusel-home" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+		
+	</section >
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/js/mdb.min.js"></script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<script src="js/particles.js"></script>
+	<script src="js/app.js"></script>
+	
+
+</body>
+</html>
